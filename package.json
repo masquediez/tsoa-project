@@ -1,0 +1,20 @@
+{
+  "name": "tsoa-project",
+  "version": "1.0.0",
+  "main": "build/src/server.ts",
+  "author": "gabriel <gabrielmasquediez@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "tsoa": "^6.4.0"
+  },
+  "scripts": {
+    "build": "tsoa spec-and-routes && tsc",
+    "start": "node build/src/server.js"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
+  }
+}
